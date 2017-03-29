@@ -1,0 +1,107 @@
+
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+
+list-style: none;
+border-bottom: 2px solid #555;
+
+}
+
+#cLiCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgCont {
+
+  overflow: hidden;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.imgCont img {
+
+  margin-top: 0px;
+ } 
+
+
+.cCardImgCont {
+
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 0px;
+  margin: auto;
+
+}
+
+.cCardImgCont img {
+
+  width: 200px;
+  height: 200px;
+
+ } 
+
+ #cBack {
+
+  position: absolute;
+  top:5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+ }
+
+  #cBack:hover {
+
+  cursor: pointer;
+ }
+
+
+.cardText span {
+
+margin-left: 20px;
+
+}
+.cardText {
+
+  height: 60px;
+  line-height: 60px;
+  margin-left: 0px;
+  font-size: 25px;
+
+}
+
+.cardText:hover {
+
+  cursor: pointer;
+  background-color: #D8E6D3;
+
+}
+
+#cCardDataUl {
+
+  margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
